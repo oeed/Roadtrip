@@ -1,6 +1,8 @@
 Roadtrip
 ========
 
+### [http://www.jc-mp.com/forums/index.php/topic,3530.0.html](Forums Topic)
+
 A roadtrip script for Just Cause 2 Multiplayer!
 
 I spent most of the last test in the roadtrip faction and I have to say, I had a blast. However, there were a few problems.
@@ -39,7 +41,7 @@ Note: /rt can be use in all case instead of /roadtrip
 
 As with other scripts, download it and place it in your servers '/scripts' folder. Make sure you also have CommandManager installed!
 
-## [https://dl.dropboxusercontent.com/u/10212019/JCMP%20Roadtrip%200.1.6.zip](Download link)
+### [https://github.com/oeed/Roadtrip/archive/master.zip](Download link)
 
 [http://www.jc-mp.com/forums/index.php/topic,3364.0.html](Requires CommandManager by Ahrotahntee)
 
