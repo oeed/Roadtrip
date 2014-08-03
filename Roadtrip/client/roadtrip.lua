@@ -64,7 +64,7 @@ function Roadtrip:Draw()
 end
 
 function Roadtrip:ModulesLoad()
-    Events:FireRegisteredEvent( "HelpAddItem",
+    Events:Fire( "HelpAddItem",
         {
             name = "Roadtrip",
             text = 
@@ -80,7 +80,7 @@ function Roadtrip:ModulesLoad()
                 "Note, /rt can be used instad of /roadtrip"
         })
 
-    Events:FireRegisteredEvent( "HelpAddItem",
+    Events:Fire( "HelpAddItem",
         {
             name = "Roadtrip - Leader",
             text = 
@@ -98,11 +98,11 @@ function Roadtrip:ModulesLoad()
 end
 
 function Roadtrip:ModuleUnload()
-    Events:FireRegisteredEvent( "HelpRemoveItem",
+    Events:Fire( "HelpRemoveItem",
         {
             name = "Roadtrip"
         })
-    Events:FireRegisteredEvent( "HelpRemoveItem",
+    Events:Fire( "HelpRemoveItem",
         {
             name = "Roadtrip - Leader"
         })
